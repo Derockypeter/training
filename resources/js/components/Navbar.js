@@ -26,13 +26,13 @@ export default class Navbar extends Component {
                         <a href="/" className="brand-logo">g'OZieCHUKWU</a>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href="/devwithgozie.com.ng#contactMe">Contact</a></li>
+                            <li><a href="https://devwithgozie.com.ng#contactMe" target="_blank">Contact</a></li>
                         </ul>
                     </div>
                     
                 </nav>
                 <ul className="sidenav" id="mobile-demo">
-                    <li><a href="/devwithgozie.com.ng#contactMe">Contact</a></li>
+                    <li><a href="https://devwithgozie.com.ng#contactMe" target="_blank">Contact</a></li>
                 </ul>
             </div>
         );

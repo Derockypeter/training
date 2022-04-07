@@ -23,15 +23,12 @@
         <script src="/js/app.js"></script>
         <script src="{{ asset('./js/jquery-3.0.0.min.js') }}"></script>
         <script src="{{ asset('./js/materialize.min.js') }}"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
         <script>
             //initiaize materialcss JS modules
             M.AutoInit();
 
             //initialize emailJS
-            (function(){
-                emailjs.init("user_fxjdWQ4ohwhWe9vaEjg3c"); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration 
-            })();
+            
         </script>
     </body>
 </html>
